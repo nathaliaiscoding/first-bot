@@ -1,0 +1,40 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": true,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "4e2b6b66-8d7d-4c5a-a32e-edfb182de426",
+      "authoringKey": "bc993fb575b148b79b5038f58479f794",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "MyFirstAssistanten-us_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "36219c54-9cb9-4e3f-8958-884c055b2f6a",
+      "subscriptionKey": "4838b1e03c5143f7acc137eb3d1d0a64",
+      "type": "qna",
+      "name": "Faq",
+      "id": "2"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2"
+  ],
+  "appId": "57f9586d-3141-4746-8250-1264cbd4216e",
+  "authoringKey": "bc993fb575b148b79b5038f58479f794",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "MyFirstAssistanten-us_Dispatch"
+}
